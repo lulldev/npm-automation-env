@@ -1,0 +1,24 @@
+{
+  "name": "example1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "validate-html": "index.html",
+    "jshint": "main.js",
+    "server": "./"
+  },
+  "scripts": {
+    "server": "http-server ./",
+    "validate-html": "./node_modules/html-validate/bin/html-validate.js index.html",
+    "jshint": "jshint main.js",
+    "watch": "npm-watch"
+  },
+  "author": "Kalagin Ivan",
+  "license": "ISC",
+  "devDependencies": {
+    "html-validate": "^1.13.0",
+    "http-server": "^0.11.1",
+    "npm-watch": "^0.6.0"
+  }
+}
