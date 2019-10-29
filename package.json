@@ -5,15 +5,16 @@
   "main": "index.js",
   "watch": {
     "validate-html": "index.html",
-    "jshint": "main.js",
-    "server": "./"
+    "validate-css": "style.css",
+    "jshint": "main.js"
   },
   "scripts": {
-    "server": "http-server ./",
+    "server": "live-server",
     "validate-html": "html-validate index.html",
+    "validate-css": "css-validator style.css",
     "jshint": "jshint main.js",
     "watch": "npm-watch",
-    "postinstall": "npm i -g http-server html-validate jshint"
+    "postinstall": "npm i -g live-server css-validator html-validate jshint"
   },
   "author": "Kalagin Ivan",
   "license": "ISC",
