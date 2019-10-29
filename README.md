@@ -29,7 +29,7 @@ npm run jshint
 **Валидация CSS**
 
 ```
-npm run jshint
+npm run validate-css
 ```
 
 **Запуск DEV режима (валидаторы)**
