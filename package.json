@@ -10,15 +10,14 @@
   },
   "scripts": {
     "server": "http-server ./",
-    "validate-html": "./node_modules/html-validate/bin/html-validate.js index.html",
+    "validate-html": "html-validate index.html",
     "jshint": "jshint main.js",
-    "watch": "npm-watch"
+    "watch": "npm-watch",
+    "postinstall": "npm i -g http-server html-validate jshint"
   },
   "author": "Kalagin Ivan",
   "license": "ISC",
   "devDependencies": {
-    "html-validate": "^1.13.0",
-    "http-server": "^0.11.1",
     "npm-watch": "^0.6.0"
   }
 }
