@@ -4,7 +4,6 @@
 
 ```
 npm i
-npm i -g jshint
 ```
 
 ## Запуск
@@ -27,7 +26,13 @@ npm run validate-html
 npm run jshint
 ```
 
-**Запуск DEV режима (сервер + валидаторы)**
+**Валидация CSS**
+
+```
+npm run validate-css
+```
+
+**Запуск DEV режима (валидаторы)**
 
 ```
 npm run watch
