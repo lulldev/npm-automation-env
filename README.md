@@ -32,8 +32,14 @@ npm run jshint
 npm run validate-css
 ```
 
-**Запуск DEV режима (валидаторы)**
+**Запуск watcher'а (валидаторы)**
 
 ```
 npm run watch
+```
+
+**Запуск DEV режима (валидаторы + лайв-сервер)**
+
+```
+npm run dev-mode
 ```
