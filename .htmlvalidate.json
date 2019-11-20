@@ -1,0 +1,12 @@
+{
+  "extends": ["htmlvalidate:recommended"],
+  "rules": {
+    "close-order": "error",
+    "void": [
+      "warn",
+      {
+        "style": "any"
+      }
+    ]
+  }
+}
