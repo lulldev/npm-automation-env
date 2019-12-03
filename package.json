@@ -27,7 +27,7 @@
     "jshint": "jshint src/",
     "watch": "npm-watch",
     "dev-mode": "npm-run-all --parallel server watch",
-    "postinstall": "npm i -g live-server css-validator html-validate jshint"
+    "postinstall": "npm i -g live-server html-validate jshint"
   },
   "author": "Kalagin Ivan",
   "license": "ISC",
