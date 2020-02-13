@@ -1,5 +1,5 @@
 body {
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .block {
@@ -16,7 +16,7 @@ body {
   border-radius: 3px;
   border: none;
   outline: none;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   font-family: sans-serif;
   background-color: rgb(255, 59, 59);

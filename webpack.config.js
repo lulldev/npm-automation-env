@@ -5,9 +5,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 module.exports = {
-  mode: 'production',
   context: path.resolve(__dirname, 'src'),
-  entry: './js/main.js',
+  entry: './main.js',
   output: {
     filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'dist')
@@ -33,15 +32,16 @@ module.exports = {
     })
   ],
   module: {
-    rules: [{
-      test: /\.css$/,
-      use: [
-        {
-          loader: MiniCssExtractPlugin.loader,
-          options: {},
-        },
-        'css-loader',
-      ]
-    }]
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {},
+          },
+          'css-loader',
+        ]
+      }]
   }
 }

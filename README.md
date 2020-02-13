@@ -47,5 +47,5 @@ npm run dev-mode
 **Создание билда**
 
 ```
-webpack
+npm run build
 ```
