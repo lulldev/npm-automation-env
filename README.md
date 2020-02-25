@@ -43,3 +43,9 @@ npm run watch
 ```
 npm run dev-mode
 ```
+
+**Создание билда**
+
+```
+npm run build
+```
